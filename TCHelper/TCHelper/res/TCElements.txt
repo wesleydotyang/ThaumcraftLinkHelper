@@ -1,0 +1,48 @@
+aer风
+ignis火
+aqua水
+terra地
+perditio混沌
+ordo秩序
+gelum寒冰 ignis火 perditio混沌
+lux光明 ignis火 aer风
+motus运动 aer风 ordo秩序
+permutatio交换 perditio混沌 ordo秩序
+potentia能量 ignis火 ordo秩序
+tempestas气候 aer风 aqua水
+vacuos虚空 aer风 perditio混沌
+venenum剧毒 aqua水 perditio混沌
+victus生命 aqua水 terra地
+vitreus水晶 terra地 ordo秩序
+bestia野兽 motus运动 victus生命
+fames饥饿 vacuos虚空 victus生命
+herba植物 terra地 victus生命
+iter旅行 terra地 motus运动
+limus粘液 aqua水 victus生命
+mortuus死亡 perditio混沌 victus生命
+praecantatio魔力 potentia能量 vacuos虚空
+sano治愈 victus生命 ordo秩序
+tenebrae黑暗 lux光明 vacuos虚空
+vinculum陷阱 perditio混沌 motus运动
+volatus飞行 aer风 motus运动
+alienis异域 vacuos虚空 tenebrae黑暗
+auram灵气 aer风 praecantatio魔力
+corpus肉体 mortuus死亡 bestia野兽
+exanimis亡灵 mortuus死亡 motus运动
+metallum金属 vitreus水晶 terra地
+spiritus灵魂 victus生命 mortuus死亡
+vitium腐化 perditio混沌 praecantatio魔力
+arbor树木 aer风 herba植物
+cognitio思维 ignis火 spiritus灵魂
+sensus感官 aer风 spiritus灵魂
+humanus人类 bestia野兽 cognitio思维
+instrumentum工具 ordo秩序 humanus人类
+lucrum贪婪 humanus人类 fames饥饿
+messis作物 humanus人类 herba植物
+perfodio采掘 humanus人类 terra地
+fabrico合成 humanus人类 instrumentum工具
+machina机器 motus运动 instrumentum工具
+meto收获 messis作物 instrumentum工具
+pannus布匹 bestia野兽 instrumentum工具
+telum武器 ignis火 instrumentum工具
+tutamen装备 terra地 instrumentum工具

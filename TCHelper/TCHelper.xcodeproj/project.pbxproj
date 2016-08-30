@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B77BEC1D7413A00024937C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77BEB1D7413A00024937C /* main.m */; };
+		C9B77BEF1D7413A00024937C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77BEE1D7413A00024937C /* AppDelegate.m */; };
+		C9B77BF71D7413A00024937C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B77BF61D7413A00024937C /* Assets.xcassets */; };
+		C9B77BFA1D7413A00024937C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B77BF81D7413A00024937C /* LaunchScreen.storyboard */; };
+		C9B77CDC1D7520AA0024937C /* aer.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C961D7520AA0024937C /* aer.png */; };
+		C9B77CDD1D7520AA0024937C /* alienis.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C971D7520AA0024937C /* alienis.png */; };
+		C9B77CDE1D7520AA0024937C /* aqua.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C981D7520AA0024937C /* aqua.png */; };
+		C9B77CDF1D7520AA0024937C /* arbor.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C991D7520AA0024937C /* arbor.png */; };
+		C9B77CE01D7520AA0024937C /* auram.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9A1D7520AA0024937C /* auram.png */; };
+		C9B77CE11D7520AA0024937C /* bestia.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9B1D7520AA0024937C /* bestia.png */; };
+		C9B77CE21D7520AA0024937C /* cognitio.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9C1D7520AA0024937C /* cognitio.png */; };
+		C9B77CE31D7520AA0024937C /* corpus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9D1D7520AA0024937C /* corpus.png */; };
+		C9B77CE41D7520AA0024937C /* exanimis.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9E1D7520AA0024937C /* exanimis.png */; };
+		C9B77CE51D7520AA0024937C /* fabrico.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77C9F1D7520AA0024937C /* fabrico.png */; };
+		C9B77CE61D7520AA0024937C /* fames.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA01D7520AA0024937C /* fames.png */; };
+		C9B77CE71D7520AA0024937C /* gelum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA11D7520AA0024937C /* gelum.png */; };
+		C9B77CE81D7520AA0024937C /* herba.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA21D7520AA0024937C /* herba.png */; };
+		C9B77CE91D7520AA0024937C /* humanus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA31D7520AA0024937C /* humanus.png */; };
+		C9B77CEA1D7520AA0024937C /* ignis.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA41D7520AA0024937C /* ignis.png */; };
+		C9B77CEB1D7520AA0024937C /* instrumentum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA51D7520AA0024937C /* instrumentum.png */; };
+		C9B77CEC1D7520AA0024937C /* iter.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA61D7520AA0024937C /* iter.png */; };
+		C9B77CED1D7520AA0024937C /* limus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA71D7520AA0024937C /* limus.png */; };
+		C9B77CEE1D7520AA0024937C /* lucrum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA81D7520AA0024937C /* lucrum.png */; };
+		C9B77CEF1D7520AA0024937C /* lux.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CA91D7520AA0024937C /* lux.png */; };
+		C9B77CF01D7520AA0024937C /* machina.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAA1D7520AA0024937C /* machina.png */; };
+		C9B77CF11D7520AA0024937C /* messis.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAB1D7520AA0024937C /* messis.png */; };
+		C9B77CF21D7520AA0024937C /* metallum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAC1D7520AA0024937C /* metallum.png */; };
+		C9B77CF31D7520AA0024937C /* meto.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAD1D7520AA0024937C /* meto.png */; };
+		C9B77CF41D7520AA0024937C /* mortuus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAE1D7520AA0024937C /* mortuus.png */; };
+		C9B77CF51D7520AA0024937C /* motus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CAF1D7520AA0024937C /* motus.png */; };
+		C9B77CF61D7520AA0024937C /* ordo.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB01D7520AA0024937C /* ordo.png */; };
+		C9B77CF71D7520AA0024937C /* pannus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB11D7520AA0024937C /* pannus.png */; };
+		C9B77CF81D7520AA0024937C /* perditio.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB21D7520AA0024937C /* perditio.png */; };
+		C9B77CF91D7520AA0024937C /* perfodio.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB31D7520AA0024937C /* perfodio.png */; };
+		C9B77CFA1D7520AA0024937C /* permutatio.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB41D7520AA0024937C /* permutatio.png */; };
+		C9B77CFB1D7520AA0024937C /* potentia.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB51D7520AA0024937C /* potentia.png */; };
+		C9B77CFC1D7520AA0024937C /* praecantatio.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB61D7520AA0024937C /* praecantatio.png */; };
+		C9B77CFD1D7520AA0024937C /* sano.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB71D7520AA0024937C /* sano.png */; };
+		C9B77CFE1D7520AA0024937C /* sensus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB81D7520AA0024937C /* sensus.png */; };
+		C9B77CFF1D7520AA0024937C /* spiritus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CB91D7520AA0024937C /* spiritus.png */; };
+		C9B77D001D7520AA0024937C /* telum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBA1D7520AA0024937C /* telum.png */; };
+		C9B77D011D7520AA0024937C /* tempestas.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBB1D7520AA0024937C /* tempestas.png */; };
+		C9B77D021D7520AA0024937C /* tenebrae.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBC1D7520AA0024937C /* tenebrae.png */; };
+		C9B77D031D7520AA0024937C /* terra.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBD1D7520AA0024937C /* terra.png */; };
+		C9B77D041D7520AA0024937C /* tutamen.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBE1D7520AA0024937C /* tutamen.png */; };
+		C9B77D051D7520AA0024937C /* vacuos.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CBF1D7520AA0024937C /* vacuos.png */; };
+		C9B77D061D7520AA0024937C /* venenum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC01D7520AA0024937C /* venenum.png */; };
+		C9B77D071D7520AA0024937C /* victus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC11D7520AA0024937C /* victus.png */; };
+		C9B77D081D7520AA0024937C /* vinculum.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC21D7520AA0024937C /* vinculum.png */; };
+		C9B77D091D7520AA0024937C /* vitium.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC31D7520AA0024937C /* vitium.png */; };
+		C9B77D0A1D7520AA0024937C /* vitreus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC41D7520AA0024937C /* vitreus.png */; };
+		C9B77D0B1D7520AA0024937C /* volatus.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC51D7520AA0024937C /* volatus.png */; };
+		C9B77D0C1D7520AA0024937C /* TCElements.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CC61D7520AA0024937C /* TCElements.txt */; };
+		C9B77D0F1D7520AA0024937C /* TCCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CCC1D7520AA0024937C /* TCCalc.m */; };
+		C9B77D101D7520AA0024937C /* TCElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CCE1D7520AA0024937C /* TCElement.m */; };
+		C9B77D111D7520AA0024937C /* TCElementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CD11D7520AA0024937C /* TCElementCell.m */; };
+		C9B77D121D7520AA0024937C /* TCElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CD21D7520AA0024937C /* TCElementCell.xib */; };
+		C9B77D131D7520AA0024937C /* TCResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CD41D7520AA0024937C /* TCResultViewController.m */; };
+		C9B77D141D7520AA0024937C /* TCResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CD51D7520AA0024937C /* TCResultViewController.xib */; };
+		C9B77D151D7520AA0024937C /* TCSelectElementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CD71D7520AA0024937C /* TCSelectElementViewController.m */; };
+		C9B77D161D7520AA0024937C /* TCSelectElementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CD81D7520AA0024937C /* TCSelectElementViewController.xib */; };
+		C9B77D171D7520AA0024937C /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B77CDA1D7520AA0024937C /* TCViewController.m */; };
+		C9B77D181D7520AA0024937C /* TCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9B77CDB1D7520AA0024937C /* TCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9B77BE71D7413A00024937C /* TCHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B77BEB1D7413A00024937C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9B77BED1D7413A00024937C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9B77BEE1D7413A00024937C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9B77BF61D7413A00024937C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9B77BF91D7413A00024937C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9B77BFB1D7413A00024937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B77C961D7520AA0024937C /* aer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aer.png; sourceTree = "<group>"; };
+		C9B77C971D7520AA0024937C /* alienis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alienis.png; sourceTree = "<group>"; };
+		C9B77C981D7520AA0024937C /* aqua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aqua.png; sourceTree = "<group>"; };
+		C9B77C991D7520AA0024937C /* arbor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbor.png; sourceTree = "<group>"; };
+		C9B77C9A1D7520AA0024937C /* auram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auram.png; sourceTree = "<group>"; };
+		C9B77C9B1D7520AA0024937C /* bestia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestia.png; sourceTree = "<group>"; };
+		C9B77C9C1D7520AA0024937C /* cognitio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cognitio.png; sourceTree = "<group>"; };
+		C9B77C9D1D7520AA0024937C /* corpus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corpus.png; sourceTree = "<group>"; };
+		C9B77C9E1D7520AA0024937C /* exanimis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exanimis.png; sourceTree = "<group>"; };
+		C9B77C9F1D7520AA0024937C /* fabrico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabrico.png; sourceTree = "<group>"; };
+		C9B77CA01D7520AA0024937C /* fames.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fames.png; sourceTree = "<group>"; };
+		C9B77CA11D7520AA0024937C /* gelum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gelum.png; sourceTree = "<group>"; };
+		C9B77CA21D7520AA0024937C /* herba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = herba.png; sourceTree = "<group>"; };
+		C9B77CA31D7520AA0024937C /* humanus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humanus.png; sourceTree = "<group>"; };
+		C9B77CA41D7520AA0024937C /* ignis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ignis.png; sourceTree = "<group>"; };
+		C9B77CA51D7520AA0024937C /* instrumentum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentum.png; sourceTree = "<group>"; };
+		C9B77CA61D7520AA0024937C /* iter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iter.png; sourceTree = "<group>"; };
+		C9B77CA71D7520AA0024937C /* limus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limus.png; sourceTree = "<group>"; };
+		C9B77CA81D7520AA0024937C /* lucrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lucrum.png; sourceTree = "<group>"; };
+		C9B77CA91D7520AA0024937C /* lux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lux.png; sourceTree = "<group>"; };
+		C9B77CAA1D7520AA0024937C /* machina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machina.png; sourceTree = "<group>"; };
+		C9B77CAB1D7520AA0024937C /* messis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messis.png; sourceTree = "<group>"; };
+		C9B77CAC1D7520AA0024937C /* metallum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metallum.png; sourceTree = "<group>"; };
+		C9B77CAD1D7520AA0024937C /* meto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meto.png; sourceTree = "<group>"; };
+		C9B77CAE1D7520AA0024937C /* mortuus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortuus.png; sourceTree = "<group>"; };
+		C9B77CAF1D7520AA0024937C /* motus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motus.png; sourceTree = "<group>"; };
+		C9B77CB01D7520AA0024937C /* ordo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordo.png; sourceTree = "<group>"; };
+		C9B77CB11D7520AA0024937C /* pannus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pannus.png; sourceTree = "<group>"; };
+		C9B77CB21D7520AA0024937C /* perditio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perditio.png; sourceTree = "<group>"; };
+		C9B77CB31D7520AA0024937C /* perfodio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfodio.png; sourceTree = "<group>"; };
+		C9B77CB41D7520AA0024937C /* permutatio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = permutatio.png; sourceTree = "<group>"; };
+		C9B77CB51D7520AA0024937C /* potentia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potentia.png; sourceTree = "<group>"; };
+		C9B77CB61D7520AA0024937C /* praecantatio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praecantatio.png; sourceTree = "<group>"; };
+		C9B77CB71D7520AA0024937C /* sano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sano.png; sourceTree = "<group>"; };
+		C9B77CB81D7520AA0024937C /* sensus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensus.png; sourceTree = "<group>"; };
+		C9B77CB91D7520AA0024937C /* spiritus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiritus.png; sourceTree = "<group>"; };
+		C9B77CBA1D7520AA0024937C /* telum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telum.png; sourceTree = "<group>"; };
+		C9B77CBB1D7520AA0024937C /* tempestas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tempestas.png; sourceTree = "<group>"; };
+		C9B77CBC1D7520AA0024937C /* tenebrae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tenebrae.png; sourceTree = "<group>"; };
+		C9B77CBD1D7520AA0024937C /* terra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terra.png; sourceTree = "<group>"; };
+		C9B77CBE1D7520AA0024937C /* tutamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutamen.png; sourceTree = "<group>"; };
+		C9B77CBF1D7520AA0024937C /* vacuos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vacuos.png; sourceTree = "<group>"; };
+		C9B77CC01D7520AA0024937C /* venenum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venenum.png; sourceTree = "<group>"; };
+		C9B77CC11D7520AA0024937C /* victus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victus.png; sourceTree = "<group>"; };
+		C9B77CC21D7520AA0024937C /* vinculum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vinculum.png; sourceTree = "<group>"; };
+		C9B77CC31D7520AA0024937C /* vitium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vitium.png; sourceTree = "<group>"; };
+		C9B77CC41D7520AA0024937C /* vitreus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vitreus.png; sourceTree = "<group>"; };
+		C9B77CC51D7520AA0024937C /* volatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volatus.png; sourceTree = "<group>"; };
+		C9B77CC61D7520AA0024937C /* TCElements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TCElements.txt; sourceTree = "<group>"; };
+		C9B77CCB1D7520AA0024937C /* TCCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCalc.h; sourceTree = "<group>"; };
+		C9B77CCC1D7520AA0024937C /* TCCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCalc.m; sourceTree = "<group>"; };
+		C9B77CCD1D7520AA0024937C /* TCElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCElement.h; sourceTree = "<group>"; };
+		C9B77CCE1D7520AA0024937C /* TCElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCElement.m; sourceTree = "<group>"; };
+		C9B77CD01D7520AA0024937C /* TCElementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCElementCell.h; sourceTree = "<group>"; };
+		C9B77CD11D7520AA0024937C /* TCElementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCElementCell.m; sourceTree = "<group>"; };
+		C9B77CD21D7520AA0024937C /* TCElementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCElementCell.xib; sourceTree = "<group>"; };
+		C9B77CD31D7520AA0024937C /* TCResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCResultViewController.h; sourceTree = "<group>"; };
+		C9B77CD41D7520AA0024937C /* TCResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCResultViewController.m; sourceTree = "<group>"; };
+		C9B77CD51D7520AA0024937C /* TCResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCResultViewController.xib; sourceTree = "<group>"; };
+		C9B77CD61D7520AA0024937C /* TCSelectElementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSelectElementViewController.h; sourceTree = "<group>"; };
+		C9B77CD71D7520AA0024937C /* TCSelectElementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSelectElementViewController.m; sourceTree = "<group>"; };
+		C9B77CD81D7520AA0024937C /* TCSelectElementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCSelectElementViewController.xib; sourceTree = "<group>"; };
+		C9B77CD91D7520AA0024937C /* TCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		C9B77CDA1D7520AA0024937C /* TCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		C9B77CDB1D7520AA0024937C /* TCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B77BE41D7413A00024937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B77BDE1D7413A00024937C = {
+			isa = PBXGroup;
+			children = (
+				C9B77BE91D7413A00024937C /* TCHelper */,
+				C9B77BE81D7413A00024937C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B77BE81D7413A00024937C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77BE71D7413A00024937C /* TCHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B77BE91D7413A00024937C /* TCHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77CC71D7520AA0024937C /* src */,
+				C9B77BED1D7413A00024937C /* AppDelegate.h */,
+				C9B77BEE1D7413A00024937C /* AppDelegate.m */,
+				C9B77BF61D7413A00024937C /* Assets.xcassets */,
+				C9B77BF81D7413A00024937C /* LaunchScreen.storyboard */,
+				C9B77BFB1D7413A00024937C /* Info.plist */,
+				C9B77C941D7520AA0024937C /* res */,
+				C9B77BEA1D7413A00024937C /* Supporting Files */,
+			);
+			path = TCHelper;
+			sourceTree = "<group>";
+		};
+		C9B77BEA1D7413A00024937C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77BEB1D7413A00024937C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B77C941D7520AA0024937C /* res */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77C951D7520AA0024937C /* elementicon */,
+				C9B77CC61D7520AA0024937C /* TCElements.txt */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		C9B77C951D7520AA0024937C /* elementicon */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77C961D7520AA0024937C /* aer.png */,
+				C9B77C971D7520AA0024937C /* alienis.png */,
+				C9B77C981D7520AA0024937C /* aqua.png */,
+				C9B77C991D7520AA0024937C /* arbor.png */,
+				C9B77C9A1D7520AA0024937C /* auram.png */,
+				C9B77C9B1D7520AA0024937C /* bestia.png */,
+				C9B77C9C1D7520AA0024937C /* cognitio.png */,
+				C9B77C9D1D7520AA0024937C /* corpus.png */,
+				C9B77C9E1D7520AA0024937C /* exanimis.png */,
+				C9B77C9F1D7520AA0024937C /* fabrico.png */,
+				C9B77CA01D7520AA0024937C /* fames.png */,
+				C9B77CA11D7520AA0024937C /* gelum.png */,
+				C9B77CA21D7520AA0024937C /* herba.png */,
+				C9B77CA31D7520AA0024937C /* humanus.png */,
+				C9B77CA41D7520AA0024937C /* ignis.png */,
+				C9B77CA51D7520AA0024937C /* instrumentum.png */,
+				C9B77CA61D7520AA0024937C /* iter.png */,
+				C9B77CA71D7520AA0024937C /* limus.png */,
+				C9B77CA81D7520AA0024937C /* lucrum.png */,
+				C9B77CA91D7520AA0024937C /* lux.png */,
+				C9B77CAA1D7520AA0024937C /* machina.png */,
+				C9B77CAB1D7520AA0024937C /* messis.png */,
+				C9B77CAC1D7520AA0024937C /* metallum.png */,
+				C9B77CAD1D7520AA0024937C /* meto.png */,
+				C9B77CAE1D7520AA0024937C /* mortuus.png */,
+				C9B77CAF1D7520AA0024937C /* motus.png */,
+				C9B77CB01D7520AA0024937C /* ordo.png */,
+				C9B77CB11D7520AA0024937C /* pannus.png */,
+				C9B77CB21D7520AA0024937C /* perditio.png */,
+				C9B77CB31D7520AA0024937C /* perfodio.png */,
+				C9B77CB41D7520AA0024937C /* permutatio.png */,
+				C9B77CB51D7520AA0024937C /* potentia.png */,
+				C9B77CB61D7520AA0024937C /* praecantatio.png */,
+				C9B77CB71D7520AA0024937C /* sano.png */,
+				C9B77CB81D7520AA0024937C /* sensus.png */,
+				C9B77CB91D7520AA0024937C /* spiritus.png */,
+				C9B77CBA1D7520AA0024937C /* telum.png */,
+				C9B77CBB1D7520AA0024937C /* tempestas.png */,
+				C9B77CBC1D7520AA0024937C /* tenebrae.png */,
+				C9B77CBD1D7520AA0024937C /* terra.png */,
+				C9B77CBE1D7520AA0024937C /* tutamen.png */,
+				C9B77CBF1D7520AA0024937C /* vacuos.png */,
+				C9B77CC01D7520AA0024937C /* venenum.png */,
+				C9B77CC11D7520AA0024937C /* victus.png */,
+				C9B77CC21D7520AA0024937C /* vinculum.png */,
+				C9B77CC31D7520AA0024937C /* vitium.png */,
+				C9B77CC41D7520AA0024937C /* vitreus.png */,
+				C9B77CC51D7520AA0024937C /* volatus.png */,
+			);
+			path = elementicon;
+			sourceTree = "<group>";
+		};
+		C9B77CC71D7520AA0024937C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77CCB1D7520AA0024937C /* TCCalc.h */,
+				C9B77CCC1D7520AA0024937C /* TCCalc.m */,
+				C9B77CCD1D7520AA0024937C /* TCElement.h */,
+				C9B77CCE1D7520AA0024937C /* TCElement.m */,
+				C9B77CCF1D7520AA0024937C /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C9B77CCF1D7520AA0024937C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C9B77CD01D7520AA0024937C /* TCElementCell.h */,
+				C9B77CD11D7520AA0024937C /* TCElementCell.m */,
+				C9B77CD21D7520AA0024937C /* TCElementCell.xib */,
+				C9B77CD31D7520AA0024937C /* TCResultViewController.h */,
+				C9B77CD41D7520AA0024937C /* TCResultViewController.m */,
+				C9B77CD51D7520AA0024937C /* TCResultViewController.xib */,
+				C9B77CD61D7520AA0024937C /* TCSelectElementViewController.h */,
+				C9B77CD71D7520AA0024937C /* TCSelectElementViewController.m */,
+				C9B77CD81D7520AA0024937C /* TCSelectElementViewController.xib */,
+				C9B77CD91D7520AA0024937C /* TCViewController.h */,
+				C9B77CDA1D7520AA0024937C /* TCViewController.m */,
+				C9B77CDB1D7520AA0024937C /* TCViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B77BE61D7413A00024937C /* TCHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B77BFE1D7413A00024937C /* Build configuration list for PBXNativeTarget "TCHelper" */;
+			buildPhases = (
+				C9B77BE31D7413A00024937C /* Sources */,
+				C9B77BE41D7413A00024937C /* Frameworks */,
+				C9B77BE51D7413A00024937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCHelper;
+			productName = TCHelper;
+			productReference = C9B77BE71D7413A00024937C /* TCHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B77BDF1D7413A00024937C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ff;
+				TargetAttributes = {
+					C9B77BE61D7413A00024937C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C9B77BE21D7413A00024937C /* Build configuration list for PBXProject "TCHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9B77BDE1D7413A00024937C;
+			productRefGroup = C9B77BE81D7413A00024937C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B77BE61D7413A00024937C /* TCHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B77BE51D7413A00024937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B77D0A1D7520AA0024937C /* vitreus.png in Resources */,
+				C9B77CE31D7520AA0024937C /* corpus.png in Resources */,
+				C9B77CE51D7520AA0024937C /* fabrico.png in Resources */,
+				C9B77D081D7520AA0024937C /* vinculum.png in Resources */,
+				C9B77D031D7520AA0024937C /* terra.png in Resources */,
+				C9B77CF31D7520AA0024937C /* meto.png in Resources */,
+				C9B77D141D7520AA0024937C /* TCResultViewController.xib in Resources */,
+				C9B77D001D7520AA0024937C /* telum.png in Resources */,
+				C9B77BFA1D7413A00024937C /* LaunchScreen.storyboard in Resources */,
+				C9B77CF51D7520AA0024937C /* motus.png in Resources */,
+				C9B77CEE1D7520AA0024937C /* lucrum.png in Resources */,
+				C9B77CFD1D7520AA0024937C /* sano.png in Resources */,
+				C9B77CF41D7520AA0024937C /* mortuus.png in Resources */,
+				C9B77CFA1D7520AA0024937C /* permutatio.png in Resources */,
+				C9B77CF21D7520AA0024937C /* metallum.png in Resources */,
+				C9B77BF71D7413A00024937C /* Assets.xcassets in Resources */,
+				C9B77D011D7520AA0024937C /* tempestas.png in Resources */,
+				C9B77CE61D7520AA0024937C /* fames.png in Resources */,
+				C9B77D121D7520AA0024937C /* TCElementCell.xib in Resources */,
+				C9B77CEF1D7520AA0024937C /* lux.png in Resources */,
+				C9B77D061D7520AA0024937C /* venenum.png in Resources */,
+				C9B77CF61D7520AA0024937C /* ordo.png in Resources */,
+				C9B77D0C1D7520AA0024937C /* TCElements.txt in Resources */,
+				C9B77CE01D7520AA0024937C /* auram.png in Resources */,
+				C9B77CDC1D7520AA0024937C /* aer.png in Resources */,
+				C9B77CF71D7520AA0024937C /* pannus.png in Resources */,
+				C9B77D041D7520AA0024937C /* tutamen.png in Resources */,
+				C9B77CE41D7520AA0024937C /* exanimis.png in Resources */,
+				C9B77CFF1D7520AA0024937C /* spiritus.png in Resources */,
+				C9B77CF11D7520AA0024937C /* messis.png in Resources */,
+				C9B77D091D7520AA0024937C /* vitium.png in Resources */,
+				C9B77D051D7520AA0024937C /* vacuos.png in Resources */,
+				C9B77CFC1D7520AA0024937C /* praecantatio.png in Resources */,
+				C9B77CFB1D7520AA0024937C /* potentia.png in Resources */,
+				C9B77CEA1D7520AA0024937C /* ignis.png in Resources */,
+				C9B77D181D7520AA0024937C /* TCViewController.xib in Resources */,
+				C9B77D071D7520AA0024937C /* victus.png in Resources */,
+				C9B77CFE1D7520AA0024937C /* sensus.png in Resources */,
+				C9B77CDF1D7520AA0024937C /* arbor.png in Resources */,
+				C9B77CDD1D7520AA0024937C /* alienis.png in Resources */,
+				C9B77CED1D7520AA0024937C /* limus.png in Resources */,
+				C9B77CEC1D7520AA0024937C /* iter.png in Resources */,
+				C9B77D0B1D7520AA0024937C /* volatus.png in Resources */,
+				C9B77CF01D7520AA0024937C /* machina.png in Resources */,
+				C9B77D021D7520AA0024937C /* tenebrae.png in Resources */,
+				C9B77CE71D7520AA0024937C /* gelum.png in Resources */,
+				C9B77CEB1D7520AA0024937C /* instrumentum.png in Resources */,
+				C9B77CE11D7520AA0024937C /* bestia.png in Resources */,
+				C9B77CE91D7520AA0024937C /* humanus.png in Resources */,
+				C9B77CF91D7520AA0024937C /* perfodio.png in Resources */,
+				C9B77D161D7520AA0024937C /* TCSelectElementViewController.xib in Resources */,
+				C9B77CDE1D7520AA0024937C /* aqua.png in Resources */,
+				C9B77CE81D7520AA0024937C /* herba.png in Resources */,
+				C9B77CE21D7520AA0024937C /* cognitio.png in Resources */,
+				C9B77CF81D7520AA0024937C /* perditio.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B77BE31D7413A00024937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B77D151D7520AA0024937C /* TCSelectElementViewController.m in Sources */,
+				C9B77D171D7520AA0024937C /* TCViewController.m in Sources */,
+				C9B77D131D7520AA0024937C /* TCResultViewController.m in Sources */,
+				C9B77BEF1D7413A00024937C /* AppDelegate.m in Sources */,
+				C9B77D111D7520AA0024937C /* TCElementCell.m in Sources */,
+				C9B77D101D7520AA0024937C /* TCElement.m in Sources */,
+				C9B77D0F1D7520AA0024937C /* TCCalc.m in Sources */,
+				C9B77BEC1D7413A00024937C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9B77BF81D7413A00024937C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B77BF91D7413A00024937C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B77BFC1D7413A00024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B77BFD1D7413A00024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B77BFF1D7413A00024937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley8939.TCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9B77C001D7413A00024937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley8939.TCHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B77BE21D7413A00024937C /* Build configuration list for PBXProject "TCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B77BFC1D7413A00024937C /* Debug */,
+				C9B77BFD1D7413A00024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B77BFE1D7413A00024937C /* Build configuration list for PBXNativeTarget "TCHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B77BFF1D7413A00024937C /* Debug */,
+				C9B77C001D7413A00024937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B77BDF1D7413A00024937C /* Project object */;
+}

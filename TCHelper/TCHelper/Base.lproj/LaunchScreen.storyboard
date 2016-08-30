@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="fames.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ya5-KV-l5A">
+                                <rect key="frame" x="62" y="268" width="32" height="32"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cognitio.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWs-G6-Oha">
+                                <rect key="frame" x="236" y="268" width="32" height="32"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ya5-KV-l5A" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MLn-Aq-SzN"/>
+                            <constraint firstItem="aWs-G6-Oha" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="92" id="SXt-RA-sQY"/>
+                            <constraint firstItem="aWs-G6-Oha" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ux6-xu-5uK"/>
+                            <constraint firstItem="Ya5-KV-l5A" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-82" id="f13-Nb-qrB"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cognitio.png" width="32" height="32"/>
+        <image name="fames.png" width="32" height="32"/>
+    </resources>
+</document>
